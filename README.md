@@ -180,11 +180,6 @@ tensorboard --logdir=tb_logs/my_model/
 
 I executed the `runDISTRIBUTED` script three times, each with a different work distribution strategy: DDP, FSDP, and DEEPSPEED. The resulting `.out` files from SLURM are as follows:
 
-- [slurm-8853928-DDP.out](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/0929af2b6ebcc8fa224c89844c6132dd6371adb1/DISTRIBUTED/slurm-8853928-DDP.out)
-- [slurm-8855667-FSDP.out](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/0929af2b6ebcc8fa224c89844c6132dd6371adb1/DISTRIBUTED/slurm-8855667-FSDP.out)
-- [slurm-8855830-DEEPSPEED.out](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/0929af2b6ebcc8fa224c89844c6132dd6371adb1/DISTRIBUTED/slurm-8855830-DEEPSPEED.out)
-
-The profiling logs can be found in the directory [tb_logs/my_model](https://github.com/PaulSerin/Lab-AI---HPC-Tools/tree/0929af2b6ebcc8fa224c89844c6132dd6371adb1/DISTRIBUTED/tb_logs/my_model).
 
 After executing the following command:
 
@@ -242,7 +237,7 @@ _Note on TensorCore Optimizer_
 
 _In this project, I utilized the TensorCore optimizer by setting the matrix multiplication precision to high with the command:_
 
-https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/0e6cd50914417196cc97045d2fd7da85f2ca5b34/DISTRIBUTED/DISTRIBUTED.py#L196
+
 
 _This optimization takes advantage of NVIDIA's Tensor Cores, which are specialized hardware components designed to accelerate matrix operations, particularly in deep learning tasks. By enabling high-precision matrix multiplication, Tensor Cores can perform computations more efficiently and with greater throughput, especially when dealing with large-scale models and datasets._
 
