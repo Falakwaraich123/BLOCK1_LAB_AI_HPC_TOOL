@@ -158,7 +158,6 @@ To run the code, the user needs to submit the `runDISTRIBUTED.sh` script using t
 sbatch runDISTRIBUTED.sh
 ```
 
-[runDISTRIBUTED.sh](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/584f222b516343f326cfbbc0a61a1bcb3a7739d3/DISTRIBUTED/runDistributed.sh)
 
 Before executing the script, the user can specify the desired strategy for distributing work across the available nodes and GPUs. The script includes several pre-configured strategies, and the user simply needs to uncomment the desired strategy in the .sh file. For example, to switch between ddp, fsdp, or deepspeed, the user should edit the following section:
 
