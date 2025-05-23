@@ -1,0 +1,272 @@
+slurmstepd: info: Setting TMPDIR to /scratch/8706342. Previous errors about TMPDIR can be discarded
+/var/spool/slurmd/job8706342/slurm_script: ligne 10: /mnt/app1/labai//home/usc/cursos/curso392/mypython/bin/deactivate: No such file or directory
+/mnt/netapp2/Store_uni/home/ulc/cursos/curso392/mypython/bin/python
+2025-05-21 13:27:16.936789: I tensorflow/core/util/port.cc:156] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-21 13:27:16.950519: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-05-21 13:27:16.967020: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-05-21 13:27:16.971985: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-05-21 13:27:16.983802: I tensorflow/core/platform/cpu_feature_guard.cc:211] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-24 13:27:18.165035: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/mnt/app1/labai/home/usc/cursos/curso392/mypython/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of BertForQuestionAnswering were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using GPU: NVIDIA A100-PCIE-40GB
+GPU Device Index: 0
+Number of GPUs: 1
+
+############ Train Epoch 1 ############
+Batch 100 / 10853, Loss: 3.7
+Batch 200 / 10853, Loss: 2.8
+Batch 300 / 10853, Loss: 2.3
+Batch 400 / 10853, Loss: 2.4
+Batch 500 / 10853, Loss: 3.6
+Batch 600 / 10853, Loss: 1.6
+Batch 700 / 10853, Loss: 2.0
+Batch 800 / 10853, Loss: 2.6
+Batch 900 / 10853, Loss: 1.0
+Batch 1000 / 10853, Loss: 2.0
+Batch 1100 / 10853, Loss: 0.9
+Batch 1200 / 10853, Loss: 1.8
+Batch 1300 / 10853, Loss: 2.4
+Batch 1400 / 10853, Loss: 1.4
+Batch 1500 / 10853, Loss: 0.4
+Batch 1600 / 10853, Loss: 1.2
+Batch 1700 / 10853, Loss: 1.3
+Batch 1800 / 10853, Loss: 1.7
+Batch 1900 / 10853, Loss: 1.2
+Batch 2000 / 10853, Loss: 1.4
+Batch 2100 / 10853, Loss: 1.6
+Batch 2200 / 10853, Loss: 1.1
+Batch 2300 / 10853, Loss: 1.7
+Batch 2400 / 10853, Loss: 1.2
+Batch 2500 / 10853, Loss: 2.3
+Batch 2600 / 10853, Loss: 2.1
+Batch 2700 / 10853, Loss: 2.2
+Batch 2800 / 10853, Loss: 1.2
+Batch 2900 / 10853, Loss: 1.5
+Batch 3000 / 10853, Loss: 1.7
+Batch 3100 / 10853, Loss: 2.1
+Batch 3200 / 10853, Loss: 1.0
+Batch 3300 / 10853, Loss: 1.1
+Batch 3400 / 10853, Loss: 0.9
+Batch 3500 / 10853, Loss: 1.6
+Batch 3600 / 10853, Loss: 1.4
+Batch 3700 / 10853, Loss: 2.2
+Batch 3800 / 10853, Loss: 1.2
+Batch 3900 / 10853, Loss: 1.4
+Batch 4000 / 10853, Loss: 1.1
+Batch 4100 / 10853, Loss: 1.6
+Batch 4200 / 10853, Loss: 0.6
+Batch 4300 / 10853, Loss: 1.2
+Batch 4400 / 10853, Loss: 1.3
+Batch 4500 / 10853, Loss: 2.2
+Batch 4600 / 10853, Loss: 1.2
+Batch 4700 / 10853, Loss: 1.4
+Batch 4800 / 10853, Loss: 0.9
+Batch 4900 / 10853, Loss: 1.3
+Batch 5000 / 10853, Loss: 0.9
+Batch 5100 / 10853, Loss: 0.9
+Batch 5200 / 10853, Loss: 0.8
+Batch 5300 / 10853, Loss: 0.9
+Batch 5400 / 10853, Loss: 1.9
+Batch 5500 / 10853, Loss: 0.8
+Batch 5600 / 10853, Loss: 1.2
+Batch 5700 / 10853, Loss: 1.1
+Batch 5800 / 10853, Loss: 0.3
+Batch 5900 / 10853, Loss: 1.2
+Batch 6000 / 10853, Loss: 1.7
+Batch 6100 / 10853, Loss: 1.9
+Batch 6200 / 10853, Loss: 0.6
+Batch 6300 / 10853, Loss: 1.7
+Batch 6400 / 10853, Loss: 1.6
+Batch 6500 / 10853, Loss: 1.3
+Batch 6600 / 10853, Loss: 1.2
+Batch 6700 / 10853, Loss: 0.7
+Batch 6800 / 10853, Loss: 0.9
+Batch 6900 / 10853, Loss: 1.2
+Batch 7000 / 10853, Loss: 1.3
+Batch 7100 / 10853, Loss: 1.5
+Batch 7200 / 10853, Loss: 0.6
+Batch 7300 / 10853, Loss: 1.1
+Batch 7400 / 10853, Loss: 1.0
+Batch 7500 / 10853, Loss: 1.2
+Batch 7600 / 10853, Loss: 1.5
+Batch 7700 / 10853, Loss: 1.1
+Batch 7800 / 10853, Loss: 0.8
+Batch 7900 / 10853, Loss: 1.5
+Batch 8000 / 10853, Loss: 1.8
+Batch 8100 / 10853, Loss: 1.8
+Batch 8200 / 10853, Loss: 1.3
+Batch 8300 / 10853, Loss: 0.9
+Batch 8400 / 10853, Loss: 0.7
+Batch 8500 / 10853, Loss: 1.8
+Batch 8600 / 10853, Loss: 0.6
+Batch 8700 / 10853, Loss: 1.6
+Batch 8800 / 10853, Loss: 1.8
+Batch 8900 / 10853, Loss: 1.4
+Batch 9000 / 10853, Loss: 1.3
+Batch 9100 / 10853, Loss: 0.8
+Batch 9200 / 10853, Loss: 2.3
+Batch 9300 / 10853, Loss: 0.7
+Batch 9400 / 10853, Loss: 1.3
+Batch 9500 / 10853, Loss: 1.0
+Batch 9600 / 10853, Loss: 0.4
+Batch 9700 / 10853, Loss: 1.3
+Batch 9800 / 10853, Loss: 0.9
+Batch 9900 / 10853, Loss: 0.8
+Batch 10000 / 10853, Loss: 0.6
+Batch 10100 / 10853, Loss: 0.8
+Batch 10200 / 10853, Loss: 1.3
+Batch 10300 / 10853, Loss: 0.9
+Batch 10400 / 10853, Loss: 1.2
+Batch 10500 / 10853, Loss: 0.7
+Batch 10600 / 10853, Loss: 1.4
+Batch 10700 / 10853, Loss: 1.3
+Batch 10800 / 10853, Loss: 1.1
+Epoch 1 finished. Training Loss: 1.3467016341230302, Time: 2033.3911544322968
+
+
+############ Train Epoch 2 ############
+Batch 100 / 10853, Loss: 0.3
+Batch 200 / 10853, Loss: 0.9
+Batch 300 / 10853, Loss: 1.9
+Batch 400 / 10853, Loss: 0.5
+Batch 500 / 10853, Loss: 0.7
+Batch 600 / 10853, Loss: 0.7
+Batch 700 / 10853, Loss: 1.5
+Batch 800 / 10853, Loss: 0.3
+Batch 900 / 10853, Loss: 0.4
+Batch 1000 / 10853, Loss: 1.0
+Batch 1100 / 10853, Loss: 1.1
+Batch 1200 / 10853, Loss: 1.7
+Batch 1300 / 10853, Loss: 0.5
+Batch 1400 / 10853, Loss: 1.1
+Batch 1500 / 10853, Loss: 1.4
+Batch 1600 / 10853, Loss: 0.9
+Batch 1700 / 10853, Loss: 0.6
+Batch 1800 / 10853, Loss: 0.9
+Batch 1900 / 10853, Loss: 0.4
+Batch 2000 / 10853, Loss: 0.6
+Batch 2100 / 10853, Loss: 0.7
+Batch 2200 / 10853, Loss: 0.5
+Batch 2300 / 10853, Loss: 1.2
+Batch 2400 / 10853, Loss: 1.0
+Batch 2500 / 10853, Loss: 0.8
+Batch 2600 / 10853, Loss: 0.7
+Batch 2700 / 10853, Loss: 1.1
+Batch 2800 / 10853, Loss: 0.8
+Batch 2900 / 10853, Loss: 0.4
+Batch 3000 / 10853, Loss: 1.0
+Batch 3100 / 10853, Loss: 0.6
+Batch 3200 / 10853, Loss: 0.5
+Batch 3300 / 10853, Loss: 0.9
+Batch 3400 / 10853, Loss: 1.0
+Batch 3500 / 10853, Loss: 1.4
+Batch 3600 / 10853, Loss: 0.9
+Batch 3700 / 10853, Loss: 1.5
+Batch 3800 / 10853, Loss: 1.0
+Batch 3900 / 10853, Loss: 0.7
+Batch 4000 / 10853, Loss: 1.2
+Batch 4100 / 10853, Loss: 1.2
+Batch 4200 / 10853, Loss: 1.0
+Batch 4300 / 10853, Loss: 1.6
+Batch 4400 / 10853, Loss: 0.8
+Batch 4500 / 10853, Loss: 0.7
+Batch 4600 / 10853, Loss: 0.9
+Batch 4700 / 10853, Loss: 0.8
+Batch 4800 / 10853, Loss: 1.0
+Batch 4900 / 10853, Loss: 1.6
+Batch 5000 / 10853, Loss: 0.3
+Batch 5100 / 10853, Loss: 0.6
+Batch 5200 / 10853, Loss: 0.9
+Batch 5300 / 10853, Loss: 0.7
+Batch 5400 / 10853, Loss: 0.5
+Batch 5500 / 10853, Loss: 0.9
+Batch 5600 / 10853, Loss: 0.4
+Batch 5700 / 10853, Loss: 0.4
+Batch 5800 / 10853, Loss: 1.3
+Batch 5900 / 10853, Loss: 0.3
+Batch 6000 / 10853, Loss: 2.1
+Batch 6100 / 10853, Loss: 0.4
+Batch 6200 / 10853, Loss: 0.9
+Batch 6300 / 10853, Loss: 0.7
+Batch 6400 / 10853, Loss: 0.4
+Batch 6500 / 10853, Loss: 0.4
+Batch 6600 / 10853, Loss: 1.5
+Batch 6700 / 10853, Loss: 0.4
+Batch 6800 / 10853, Loss: 0.5
+Batch 6900 / 10853, Loss: 0.5
+Batch 7000 / 10853, Loss: 0.5
+Batch 7100 / 10853, Loss: 0.5
+Batch 7200 / 10853, Loss: 0.6
+Batch 7300 / 10853, Loss: 0.7
+Batch 7400 / 10853, Loss: 1.3
+Batch 7500 / 10853, Loss: 1.8
+Batch 7600 / 10853, Loss: 0.9
+Batch 7700 / 10853, Loss: 0.5
+Batch 7800 / 10853, Loss: 0.9
+Batch 7900 / 10853, Loss: 0.5
+Batch 8000 / 10853, Loss: 0.9
+Batch 8100 / 10853, Loss: 0.6
+Batch 8200 / 10853, Loss: 0.7
+Batch 8300 / 10853, Loss: 0.8
+Batch 8400 / 10853, Loss: 0.9
+Batch 8500 / 10853, Loss: 1.3
+Batch 8600 / 10853, Loss: 0.9
+Batch 8700 / 10853, Loss: 0.4
+Batch 8800 / 10853, Loss: 0.7
+Batch 8900 / 10853, Loss: 1.0
+Batch 9000 / 10853, Loss: 1.0
+Batch 9100 / 10853, Loss: 0.7
+Batch 9200 / 10853, Loss: 1.5
+Batch 9300 / 10853, Loss: 1.2
+Batch 9400 / 10853, Loss: 0.6
+Batch 9500 / 10853, Loss: 0.8
+Batch 9600 / 10853, Loss: 0.9
+Batch 9700 / 10853, Loss: 1.9
+Batch 9800 / 10853, Loss: 1.2
+Batch 9900 / 10853, Loss: 0.7
+Batch 10000 / 10853, Loss: 1.0
+Batch 10100 / 10853, Loss: 1.0
+Batch 10200 / 10853, Loss: 1.1
+Batch 10300 / 10853, Loss: 1.1
+Batch 10400 / 10853, Loss: 1.0
+Batch 10500 / 10853, Loss: 1.1
+Batch 10600 / 10853, Loss: 1.0
+Batch 10700 / 10853, Loss: 0.8
+Batch 10800 / 10853, Loss: 1.1
+Epoch 2 finished. Training Loss: 0.848701773334749, Time: 2033.2333228588104
+
+Total Training Time: 63 minutes 6.61 seconds
+
+############ Evaluation ############
+Batch 100 / 2538, Loss: 0.7
+Batch 200 / 2538, Loss: 2.2
+Batch 300 / 2538, Loss: 0.9
+Batch 400 / 2538, Loss: 0.7
+Batch 500 / 2538, Loss: 1.0
+Batch 600 / 2538, Loss: 1.2
+Batch 700 / 2538, Loss: 1.1
+Batch 800 / 2538, Loss: 1.5
+Batch 900 / 2538, Loss: 1.1
+Batch 1000 / 2538, Loss: 0.5
+Batch 1100 / 2538, Loss: 1.8
+Batch 1200 / 2538, Loss: 0.7
+Batch 1300 / 2538, Loss: 0.5
+Batch 1400 / 2538, Loss: 0.7
+Batch 1500 / 2538, Loss: 2.7
+Batch 1600 / 2538, Loss: 1.3
+Batch 1700 / 2538, Loss: 1.3
+Batch 1800 / 2538, Loss: 1.0
+Batch 1900 / 2538, Loss: 0.6
+Batch 2000 / 2538, Loss: 0.7
+Batch 2100 / 2538, Loss: 1.2
+Batch 2200 / 2538, Loss: 0.3
+Batch 2300 / 2538, Loss: 1.4
+Batch 2400 / 2538, Loss: 2.2
+Batch 2500 / 2538, Loss: 0.4
+Evaluation finished. Validation Loss: 1.1095112483170531
+
+Total Evaluation Time: 2 minutes 20.66 seconds
