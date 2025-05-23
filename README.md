@@ -13,9 +13,9 @@ The repository is divided into two parts:
 
 A significant part of the model implementation in this section is based on a notebook found online: [BERT-based pretrained model using SQuAD 2.0 dataset](https://github.com/alexaapo/BERT-based-pretrained-model-using-SQuAD-2.0-dataset). I have adapted the notebook to suit the objectives of this project.
 
-### Data, model and optimizer
+### Data, model, and optimizer
 
-I selected the SQuAD2.0 which is composed by more than 100 000 questions.
+I selected the SQuAD2.0, which is composed of more than 100,000 questions.
 
 86 000 for the training set :
 
@@ -27,18 +27,18 @@ I selected the SQuAD2.0 which is composed by more than 100 000 questions.
 
 I chose the model BertForQuestionAnswering because it perfectly meets the requirements :
 
-https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/34dd05fcbd2f22eb06f9e35e49af5a04bc082a7b/BASELINE.py#L201
+https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/BASELINE.py#L201
 
 I used the AdamW optimizer with a learning rate of 5e-5 :
 
-https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/34dd05fcbd2f22eb06f9e35e49af5a04bc082a7b/BASELINE.py#L204
+https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/BASELINE.py#L204
 
 ### Code
 
 This section includes the following:
 
-- A detailed notebook explaining the steps taken to train the model: [BASELINE.ipynb](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/main/BASELINE.ipynb).
-- A Python script that trains the model for 2 epochs and evaluates it on a test dataset: [BASELINE.py](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/main/BASELINE.py).
+- A detailed notebook explaining the steps taken to train the model: [BASELINE.ipynb](https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/BASELINE.ipynb).
+- A Python script that trains the model for 2 epochs and evaluates it on a test dataset: [BASELINE.py](https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/BASELINE.ipynb).
 
 To run the training script on an A100 GPU, you can use the following command:
 
@@ -46,15 +46,15 @@ To run the training script on an A100 GPU, you can use the following command:
 sbatch run.sh
 ```
 
-This will generate an output similar to this SLURM output file: [slurm-8705441.out](https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/main/slurm-8705441.out), but the file name will match the corresponding SLURM job ID.
+This will generate an output similar to this SLURM output file: [slurm-8705441.out](https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/slurm-8706342.out), but the file name will match the corresponding SLURM job ID.
 
 ### Results
 
 You can find the results of the training loop here:
 
-https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/693edd42dcd61574d18b0b798045b69d592c26b6/slurm-8703817.out#L247-L249
+https://github.com/Falakwaraich123/BLOCK1_LAB_AI_HPC_TOOL/blob/main/BASELINE/slurm-8706342.out#L247-L249
 
-https://github.com/PaulSerin/Lab-AI---HPC-Tools/blob/1d9f1d90a416b68af08f99c09e14a8046a09d4c7/slurm-8703817.out#L5789-L5791
+
 
 The total training time for 2 epochs on the full dataset is approximately **1 hour**, with a final training loss of **0.88**.
 
